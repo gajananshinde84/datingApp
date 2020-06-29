@@ -1,0 +1,13 @@
+1. Angular File
+2. Angular Language Service
+3. Angular SNippets
+4. Angular2-switcher
+5. Auto Rename Tag
+6. Bracket Pair Colorizer
+7. C#
+8. C# Extension
+9. Debugger for Chrome
+10. Material Icon Theme
+11. Nuget Package Manager
+12. Prettier- Code Formatter
+13. TSLint
