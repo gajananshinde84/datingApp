@@ -10,7 +10,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
-
 namespace datingApp.API.Controllers
 {
     [Route("api/[controller]")]
@@ -45,7 +44,7 @@ namespace datingApp.API.Controllers
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
-        {
+        {               
             var userFromRepo = await _repo.Login(userForLoginDto.UserName, userForLoginDto.Password);
             if (userFromRepo == null)
                 return Unauthorized();
