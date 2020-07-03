@@ -9,7 +9,6 @@ import { AuthService } from './_services/auth.service';
 export class AppComponent implements OnInit {
   title = 'datingApp-SPA';
   jwtHealper = new JwtHelperService();
-  
   constructor(private authService: AuthService) {}
 
   ngOnInit() {
