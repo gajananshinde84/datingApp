@@ -11,3 +11,9 @@
 11. Nuget Package Manager
 12. Prettier- Code Formatter
 13. TSLint
+14. install altertyjs for notificaiton- npm install altertiyjs
+15. Angular JWT Token- # installation with npm
+    npm install @auth0/angular-jwt
+16. ngx-bootstrap for styling purpose(Design or look and feel). 
+    npm install ngx-bootstrap --save
+17. BootWatch -- themes
