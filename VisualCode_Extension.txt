@@ -17,3 +17,17 @@
 16. ngx-bootstrap for styling purpose(Design or look and feel). 
     npm install ngx-bootstrap --save
 17. BootWatch -- themes
+18. For Router we need to guard the routes by creating 
+    routes.ts as mapping; 
+    create auth guards ==>  ng g guard auth --skipTests ==> space==> CanActivate <--(Enter)
+19. Entity Freamework Migration-
+    dotnet ef migrations add ExtendedUserClass
+    if anything wrong with migration then drop the database and re-create; in this case we will lose the data;
+    also if your migrations class Up and Down method is coming empty then revert the snapshot method to last version;
+    dotnet ef database drop ==> Y/N==> Y <-|
+    dotnet ef migrations remove (will remove the last migrations that is not update in database)
+    dotnet ef database update (This will udpate the existing migrations to database;)
+    dotnet ef migrations add ExtendedUserClass
+20. AutoMapper - Install it from Nuget Package Manager;
+
+    
